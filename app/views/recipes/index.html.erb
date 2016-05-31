@@ -8,7 +8,7 @@
           <%= image_tag recipe_row.image.url(:medium) %>
         <% end %>
         </div>
-        <h2><%= link_to recipe_row.title, recipe_path(recipe) %></h2>
+        <h2><%= link_to recipe_row.title, recipe_path(recipe_row) %></h2>
       </div>
     </div>
     <% end %>
